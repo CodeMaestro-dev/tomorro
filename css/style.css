@@ -90,6 +90,7 @@ img[src="./assets/images/Region - carousel → Button - next slide.svg"] {
 }
 
 .section-one__p {
+  margin-block: 31.5px 32.05px;
   width: 747.53px;
 }
 
@@ -186,6 +187,10 @@ header > div {
 
 .section-three {
   position: relative;
+}
+
+.section-three__div---div {
+  cursor: pointer;
 }
 
 .section-three__div {
@@ -316,6 +321,10 @@ header > div {
   z-index: -1;
 }
 
+.sectio-six__p {
+  margin-block-start: 48px;
+}
+
 .section-six__div--height {
   height: 412px;
 }
@@ -413,6 +422,10 @@ img[src="./assets/images/div.dot.svg"] {
 
 .section-eight__div--margin {
   margin-block-start: 63.83px;
+}
+
+.section-eight__div--width {
+  width: 800px;
 }
 
 .section-nine__div--h2 {
