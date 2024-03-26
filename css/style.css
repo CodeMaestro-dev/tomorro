@@ -234,6 +234,18 @@ header > div {
   font-size: 38.28px;
 }
 
+.section-three__div-div {
+  margin-block-start: 55px;
+}
+
+.section-four {
+  margin-block-end: 128.7px;
+}
+
+.section-four img {
+  width: 100%;
+}
+
 .grey-bg {
   background-color: #f2f5eb;
 }
