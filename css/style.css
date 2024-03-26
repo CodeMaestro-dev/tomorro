@@ -239,11 +239,23 @@ header > div {
 }
 
 .section-four {
+  margin-block-start: 220px;
   margin-block-end: 128.7px;
+  position: relative;
 }
 
 .section-four img {
   width: 100%;
+}
+
+.section-four__p {
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
+  width: fit-content;
+  background-color: #d9deca;
+  padding: 24px 32px;
+  border-radius: 36px;
 }
 
 .grey-bg {
