@@ -885,6 +885,10 @@ footer li {
   .section-six__p {
     width: 100% !important;
   }
+
+  .image-display-none {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
