@@ -340,18 +340,30 @@ header > div {
 }
 
 .section-five__div:first-of-type {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-  url(../assets/images/6569a404c092bd33d2786509_Picture-Hero-Legal-p-800.png.svg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../assets/images/6569a404c092bd33d2786509_Picture-Hero-Legal-p-800.png.svg);
 }
 
 .section-five__div:nth-of-type(2) {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-   url(../assets/images/6569a404c092bd33d27864d5_Picture-Hero-Sales-p-800.png.svg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../assets/images/6569a404c092bd33d27864d5_Picture-Hero-Sales-p-800.png.svg);
 }
 
 .section-five__div:last-of-type {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-   url(../assets/images/6569a404c092bd33d27864e1_Picture-Hero-Finance-p-800.png.svg);
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(../assets/images/6569a404c092bd33d27864e1_Picture-Hero-Finance-p-800.png.svg);
 }
 
 .section-five__div:hover {
@@ -955,6 +967,34 @@ footer li {
 @media screen and (max-width: 520px) {
   img[src="./assets/images/Tabpanel → 656dbec30f6eba5989e8d46a_Visual-Tracking-EN-Hero.png.svg"] {
     display: none;
+  }
+
+  .section-five__div {
+    width: 269px;
+    height: 256px;
+  }
+
+  .section-five__div > div {
+    padding: 10px !important;
+  }
+
+  .section-five__div > div > h3 {
+    font-size: 15px;
+  }
+
+  .section-five__div > div > p {
+    margin: 0px !important;
+    margin-block-start: 90px !important;
+    font-size: 12px;
+  }
+
+  .section-five__div > div > ul {
+    margin: 0px !important;
+    margin-block-start: 30px !important;
+  }
+
+  .section-five__div > div > ul > li > a {
+    font-size: 10px !important;
   }
 }
 
