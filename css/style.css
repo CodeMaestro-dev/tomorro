@@ -291,6 +291,14 @@ header > div {
   margin-block-start: 55px;
 }
 
+.btn-group {
+  display: none;
+}
+
+.btn-group li {
+  cursor: pointer;
+}
+
 .section-four {
   margin-block-start: 220px;
   margin-block-end: 128.7px;
@@ -626,10 +634,6 @@ footer li {
   .section-three__div-2 {
     padding-inline-start: 20px;
   }
-
-  .section-three__div-2 div:first-of-type {
-    border: 1px solid black;
-  }
 }
 
 @media screen and (max-width: 1280px) {
@@ -666,11 +670,46 @@ footer li {
   .header-button {
     display: block;
   }
+
+  .footer-section__div-1 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .section-six__div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .section-six__div > div {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .section-six__div--flex {
+    justify-content: start !important;
+  }
 }
 
 @media screen and (max-width: 1020px) {
   .section-eight__div {
     padding-inline: 20px;
+  }
+
+  .footer-section {
+    padding-inline: 10px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .footer-section__div-2 {
+    border: none !important;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    background-color: transparent;
   }
 }
 
@@ -686,6 +725,26 @@ footer li {
   }
 }
 
+@media screen and (max-width: 850px) {
+  .display-options-none {
+    display: none !important;
+  }
+
+  .btn-group {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .section-one__h1 {
+    width: 100%;
+  }
+
+  .section-one__p {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 800px) {
   .section-five__h2 {
     width: 100%;
@@ -696,6 +755,12 @@ footer li {
   .section-eight__div--h3 {
     width: 100%;
   }
+
+  .footer-section__div-3 {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+  }
 }
 
 @media screen and (max-width: 765px) {
@@ -703,4 +768,13 @@ footer li {
     display: flex;
     justify-content: space-between !important;
   }
+}
+
+@media screen and (max-width: 705px) {
+  .section-seven > div:first-of-type div img:first-of-type {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 512px) {
 }
