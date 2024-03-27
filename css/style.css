@@ -206,24 +206,29 @@ header > div {
   margin-block-start: 64px;
 }
 
-.section-two__div {
-  overflow: hidden;
+.section-two > div {
+  padding-block: 10px;
+  overflow-x: hidden;
   margin-block: 76px 197.14px;
-  /* animation-name: scroll;
+}
+
+.section-two__div {
+  /* overflow: hidden; */
+  width: fit-content;
+  animation-name: scroll;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
   animation-duration: 5000ms;
- */
 }
 
-/* @keyframes scroll {
+@keyframes scroll {
   0% {
     transform: translateX(100%);
   }
   100% {
     transform: translateX(-100%);
   }
-} */
+}
 
 .section-two__div img:not(:first-of-type) {
   margin-inline: 20px;
