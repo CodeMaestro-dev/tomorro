@@ -867,8 +867,6 @@ footer li {
   .section-six__p {
     width: 100% !important;
   }
-
-  
 }
 
 @media screen and (max-width: 600px) {
@@ -958,6 +956,20 @@ footer li {
 
   .btn-group > .btn {
     font-size: 10px !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .section-eight {
+    padding-inline: 0px !important;
+  }
+
+  footer.px-5 {
+    padding-inline: 0px !important;
+  }
+
+  .footer-section {
+    border-radius: 0px;
   }
 }
 
