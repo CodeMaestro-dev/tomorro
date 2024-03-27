@@ -40,7 +40,6 @@ header {
   justify-content: center;
   padding-block-start: 10px;
   background-color: var(--dark-green);
-  border: 1px solid red;
 }
 
 header > div {
@@ -48,7 +47,6 @@ header > div {
   border-radius: 60px;
   position: fixed;
   z-index: 5;
-  border: 1px solid red;
 }
 
 .header-button {
@@ -796,6 +794,10 @@ footer li {
 }
 
 @media screen and (max-width: 650px) {
+  section {
+    padding-inline: 0 !important;
+  }
+
   .section-six__div > div:first-of-type {
     width: 100% !important;
   }
@@ -805,7 +807,7 @@ footer li {
   }
 
   .section-six__p {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
@@ -829,7 +831,10 @@ footer li {
   }
 }
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 520px) {
+  img[src="./assets/images/Tabpanel → 656dbec30f6eba5989e8d46a_Visual-Tracking-EN-Hero.png.svg"] {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -845,5 +850,25 @@ footer li {
   .section-six__div--p {
     margin-block-start: 20px;
     text-align: center !important;
+  }
+
+  .section-three__link {
+    font-size: 10px;
+    padding: 14px 24px;
+  }
+
+  .section-three__div---div > p {
+    font-size: 10px !important;
+  }
+
+  .btn-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 8px;
+  }
+
+  .btn-group > .btn {
+    font-size: 10px !important;
   }
 }
