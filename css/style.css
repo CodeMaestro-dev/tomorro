@@ -305,9 +305,11 @@ header > div {
 }
 
 .section-four {
+  border: 1px solid red;
   margin-block-start: 220px;
-  margin-block-end: 128.7px;
+  margin-block-end: 328.7px;
   position: relative;
+  height: 100%;
 }
 
 .section-four img {
@@ -374,20 +376,25 @@ header > div {
   overflow: hidden;
 }
 
-.section-six__div-2 {
-  display: flex;
-}
-
-.section-six__div-2 > div {
-  width: 50%;
-}
-
 .section-six__div > img {
   height: 102%;
   position: absolute;
   bottom: 0;
   right: 0;
   z-index: -1;
+}
+
+.section-six__div-2 {
+  display: flex;
+  gap: 24px;
+}
+
+.section-six__div-2 > div {
+  width: 50%;
+}
+
+.section-six__div-2 > div > div {
+  width: 100%;
 }
 
 .section-six__p {
@@ -968,6 +975,14 @@ footer li {
 }
 
 @media screen and (max-width: 480px) {
+  .section-three {
+    padding-inline: 0px !important;
+  }
+
+  .section-three__div-2 {
+    border-radius: 0px !important;
+  }
+
   .section-six {
     padding-inline: 0px !important;
   }
@@ -977,11 +992,16 @@ footer li {
     width: 100%;
   }
 
-  .second-six__div-2 > div > {
-    padding: 0 !important;
+  .section-six__div--height {
+    width: 100%;
   }
 
-  .section-six__div--height {
+  .section-six__div-2 {
+    width: 100%;
+    padding-inline: 0px !important;
+  }
+
+  .section-six__div-2 > div {
     padding: 0 !important;
     width: 100%;
   }
