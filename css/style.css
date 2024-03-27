@@ -333,10 +333,25 @@ header > div {
 }
 
 .section-five__div {
+  border-radius: 5px;
   width: 469px;
   height: 456px;
   cursor: pointer;
-  margin-inline: 5px;
+}
+
+.section-five__div:first-of-type {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  url(../assets/images/6569a404c092bd33d2786509_Picture-Hero-Legal-p-800.png.svg);
+}
+
+.section-five__div:nth-of-type(2) {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+   url(../assets/images/6569a404c092bd33d27864d5_Picture-Hero-Sales-p-800.png.svg);
+}
+
+.section-five__div:last-of-type {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+   url(../assets/images/6569a404c092bd33d27864e1_Picture-Hero-Finance-p-800.png.svg);
 }
 
 .section-five__div:hover {
@@ -1013,15 +1028,20 @@ footer li {
   }
 }
 
+@media screen and (max-width: 400px) {
+  .section-six__div-2 + div {
+    padding: 0 !important;
+  }
+}
+
 @media screen and (max-width: 390px) {
   .testimonial-writer-div {
     display: flex;
-    flex-direction: column;
   }
 
   .testimonial-writer-div > p {
-    text-align: center !important;
-    margin: 0 !important;
+    margin-inline-start: 10px !important;
+    font-size: 14px;
   }
 }
 
