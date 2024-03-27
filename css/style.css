@@ -305,7 +305,6 @@ header > div {
 }
 
 .section-four {
-  border: 1px solid red;
   margin-block-start: 220px;
   margin-block-end: 328.7px;
   position: relative;
@@ -751,13 +750,13 @@ footer li {
 }
 
 @media screen and (max-width: 940px) {
-  .footer-section__div-2 {
+  /* .footer-section__div-2 {
     border: none !important;
     width: 100%;
     flex-direction: column;
     gap: 20px;
     background-color: transparent;
-  }
+  } */
 }
 
 @media screen and (max-width: 905px) {
@@ -889,6 +888,22 @@ footer li {
   .header-div {
     width: 90% !important;
   }
+
+  .footer-section__div-2 {
+    border: none !important;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    background-color: transparent;
+  }
+
+  h2 {
+    font-size: 30px !important;
+  }
+
+  h3 {
+    font-size: 30px !important;
+  }
 }
 
 @media screen and (max-width: 570px) {
@@ -936,6 +951,23 @@ footer li {
     flex-direction: column;
     align-items: center;
   }
+
+  .section-one__div-2 > a {
+    width: 100%;
+  }
+
+  .section-one__div {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px !important;
+    margin-block-start: 20px;
+  }
+
+  .section-one__div > div {
+    margin: 0 !important;
+  }
 }
 
 @media screen and (max-width: 440px) {
@@ -975,12 +1007,22 @@ footer li {
 }
 
 @media screen and (max-width: 480px) {
+  .fs-p {
+    font-size: 13px;
+  }
+
   .section-three {
     padding-inline: 0px !important;
   }
 
   .section-three__div-2 {
+    padding-block-start: 90px;
+    padding-inline: 10px !important;
     border-radius: 0px !important;
+  }
+
+  .section-three__li {
+    font-size: 13px;
   }
 
   .section-six {
@@ -1041,5 +1083,22 @@ footer li {
 
   .section-eight__div--p {
     text-align: center !important;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  footer-section__div-3--color {
+    text-align: center;
+  }
+
+  .list-unstyled {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .list-unstyled > li {
+    margin: 0 !important;
   }
 }
