@@ -14,15 +14,15 @@
 <body>
     <header>
         <div
-            class="container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-4">
-            <div class="col-md-3 mb-2 mb-md-0">
+            class="header-div container d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 px-4">
+            <div class="mb-2 mb-md-0">
                 <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
                     <img src="./assets/images/Nav → Link → 6569a404c092bd33d2786511_logo-ex-light.svg.svg"
                         alt="Home Page">
                 </a>
             </div>
 
-            <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+            <ul class="nav col-12 col-md-auto mb-2 gap-3 justify-content-center mb-md-0">
                 <li><a href="#" class="nav-link px-2 link-light">Product <img
                             src="./assets/images/Nav → 6569a404c092bd33d27864be_chevron-light.svg.svg" alt=""></a></li>
                 <li><a href="#" class="nav-link px-2 link-light">Solutions <img
@@ -33,10 +33,52 @@
                             src="./assets/images/Nav → 6569a404c092bd33d27864be_chevron-light.svg.svg" alt=""></a></li>
             </ul>
 
-            <div class="d-flex align-items-center justify-content-center gap-2 col-md-3 text-end">
-                <a href="#" class="nav-link px-2 link-light">Sign In</a>
-                <a href="#" class="nav-link light-green-bg">Schedule a demo</a>
-                <a href="#" class="nav-link px-2 link-light">En</a>
+            <div class="d-flex align-items-center justify-content-center gap-2 text-end">
+                <a href="#" class="header-a nav-link px-2 link-light">Sign In</a>
+                <a href="#" class="header-a nav-link light-green-bg">Schedule a demo</a>
+                <a href="#" class="header-a nav-link px-2 link-light">En</a>
+                <button class="header-button" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <img src="./assets/images/hamburger.svg" alt="aside">
+                </button>
+
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                    aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
+                            <img src="./assets/images/Nav → Link → 6569a404c092bd33d2786511_logo-ex-light.svg.svg"
+                                alt="Home Page">
+                        </a>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="mt-3">
+                            <ul class="d-flex flex-column text-start gap-5 p-0">
+                                <li><a href="#" class="text-white">Product <img
+                                            src="./assets/images/Nav → 6569a404c092bd33d27864be_chevron-light.svg.svg"
+                                            alt=""></a></li>
+                                <li><a href="#" class="text-white">Solutions <img
+                                            src="./assets/images/Nav → 6569a404c092bd33d27864be_chevron-light.svg.svg"
+                                            alt=""></a></li>
+                                <li><a href="#" class="text-white">Pricing <img
+                                            src="./assets/images/Nav → 6569a404c092bd33d27864be_chevron-light.svg.svg"
+                                            alt=""></a></li>
+                                <li><a href="#" class="text-white">Resources <img
+                                            src="./assets/images/Nav → 6569a404c092bd33d27864be_chevron-light.svg.svg"
+                                            alt=""></a></li>
+                                <li>
+                                    <a href="#" class="text-white">Sign In</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="text-white">Schedule a demo</a>
+                                </li>
+                                <li>
+                                    <a href=" #" class="text-white">En</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
@@ -84,7 +126,7 @@
 
         <section class="section-two">
             <p class="section-two__p">1000+ companies manage their contracts with Tomorro</p>
-            <div class="section-two__div d-flex justify-content-between overflow-hidden">
+            <div class="section-two__div d-flex justify-content-between align-items-center">
                 <img src="./assets/images/6569a404c092bd33d278646c_Logo-vert.png.svg" alt="">
                 <img src="./assets/images/62028b09ddf52d4c5cc74769_Voodoo.png.svg" alt="">
                 <img src="./assets/images/6569a404c092bd33d2786480_62a7039ea5539a8909a2c766_Nestle-Logo-Transparent-Background.svg.svg"
@@ -92,11 +134,13 @@
                 <img src="./assets/images/6569a404c092bd33d2786481_62a7039ea5539a28b2a2c75f_Qonto.svg.svg" alt="">
                 <img src="./assets/images/6569a404c092bd33d2786482_62a7039ea5539a0085a2c771_Logo_SNCF_Connect.svg.svg"
                     alt="">
-                <img src="./assets/images/6569a404c092bd33d2786483_63405aba0c1e981223bea2e4_Group.svg" alt="">
+                <img src="./assets/images/6569a404c092bd33d2786483_63405aba0c1e981223bea2e4_Group.svg.svg" alt="">
                 <img src="./assets/images/6569a404c092bd33d2786484_637350f608799af8c3163473_Vinci-p-500.svg.svg" alt="">
                 <img src="./assets/images/6569a404c092bd33d278647e_637350c49f24c1b12f2ba0e9_Electra.svg.svg" alt="">
                 <img src="./assets/images/6569a404c092bd33d2786485_633f23a6eb4a6eced8f276b9_Bitmap.svg.svg" alt="">
                 <img src="./assets/images/6569a404c092bd33d2786486_62a7039ea5539a6d16a2c729_Luko.svg.svg" alt="">
+                <img src="./assets/images/Item.svg" alt="">
+                <img src="./assets/images/Item-2.svg" alt="">
             </div>
         </section>
 
@@ -158,7 +202,7 @@
             id="custom-cards">
             <h2 class="section-five__h2 pb-2 text-dark-green">Designed for the entire company</h2>
             <p class="text-dark-green">Find out how Tomorro benefits your whole business.</p>
-            <div class="d-flex align-items-stretch g-4 py-5 gap-3">
+            <div class="section-five__div-1 d-flex align-items-stretch g-4 py-5 gap-3">
                 <div class="section-five__div col">
                     <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-2"
                         style="background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),  url('./assets/images/6569a404c092bd33d2786509_Picture-Hero-Legal-p-800.png.svg')">
@@ -224,7 +268,7 @@
                         travelers with local travel agencies around the world to offer
                         tailor-made trips.</p>
                 </div>
-                <div class="w-50 d-flex align-items-center justify-content-start">
+                <div class="section-six__div--flex w-50 d-flex align-items-center justify-content-start">
                     <img src="./assets/images/6569a404c092bd33d2786496_evaneos-fluo.svg fill.svg" alt="" width="208.8px"
                         height="48px">
                 </div>
@@ -281,81 +325,168 @@
         </section>
 
         <section class="d-flex flex-column px-4 py-4 section-seven">
-            <div class=" d-flex align-items-stretch g-4 py-5 gap-4">
-                <div class="col section-seven__div">
-                    <p class="section-seven__div--p">
-                        "Tomorro has dramatically improved
-                        our ability to manage contracts
-                        accurately and quickly. Its intuitive
-                        interface and robust feature set
-                        perfectly match the requirements of
-                        our industry.”
-                    </p>
-                    <div class="d-flex align-items-center section-seven__div-div-1">
-                        <img src="./assets/images/div.picture-large.svg" alt="">
-                        <div class="d-flex flex-column ms-4">
-                            <p class="mb-0"><span class="text-dark-green fw-bold">Alexia Delahousse</span><span
-                                    class="text-light-grey"> • Vp
-                                    Legal, Qonto</span></p>
-                            <div class="d-flex mt-2 gap-2">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
+            <div class="d-flex flex-column gap-2">
+                <div>
+                    <img src=" ./assets/images/div.tag-testimonial.svg" role="presentation">
+                    <img src="./assets/images/div.tag-testimonial-icon-1.svg" role="presentation">
+                </div>
+                <div>
+                    <img src="./assets/images/div.tag-testimonial-2.svg" role="presentation">
+                </div>
+                <div>
+                    <img src="./assets/images/div.tag-testimonial-3.svg" role="presentation">
+                    <img src="./assets/images/div.tag-testimonial-4.svg" role="presentation">
+                </div>
+            </div>
+            <div class="d-flex flex-column g-4 py-5">
+                <div class="section-seven__div-1 gap-4">
+                    <div class="carousel-slide section-seven__div">
+                        <p class="section-seven__div--p">
+                            "Tomorro has dramatically improved
+                            our ability to manage contracts
+                            accurately and quickly. Its intuitive
+                            interface and robust feature set
+                            perfectly match the requirements of
+                            our industry.”
+                        </p>
+                        <div class="d-flex align-items-center section-seven__div-div-1">
+                            <img src="./assets/images/div.picture-large.svg" alt="">
+                            <div class="d-flex flex-column ms-4">
+                                <p class="mb-0"><span class="text-dark-green fw-bold">Alexia Delahousse</span><span
+                                        class="text-light-grey"> • Vp
+                                        Legal, Qonto</span></p>
+                                <div class="d-flex mt-2 gap-2">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col section-seven__div">
-                    <p class="section-seven__div--p">
-                        "Tomorro is a great tool for people
-                        on the team who need to draft
-                        agreements but don't come from a
-                        legal background.”
-                    </p>
-                    <div class="d-flex justify-content-between align-items-center section-seven__div-div-2">
-                        <img src="./assets/images/div.picture-large (1).svg" alt="">
-                        <div class="d-flex flex-column ms-4">
-                            <p class="mb-0 text-start"><span class="text-dark-green fw-bold">Kader Zedek</span><span
-                                    class="text-light-grey"> • Head of Legal and
-                                    Compliance, Pretto</span></p>
-                            <div class="d-flex mt-2 gap-2">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
+                    <div class="carousel-slide section-seven__div">
+                        <p class="section-seven__div--p">
+                            "Tomorro is a great tool for people
+                            on the team who need to draft
+                            agreements but don't come from a
+                            legal background.”
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center section-seven__div-div-2">
+                            <img src="./assets/images/div.picture-large (1).svg" alt="">
+                            <div class="d-flex flex-column ms-4">
+                                <p class="mb-0 text-start"><span class="text-dark-green fw-bold">Kader Zedek</span><span
+                                        class="text-light-grey"> • Head of Legal and
+                                        Compliance, Pretto</span></p>
+                                <div class="d-flex mt-2 gap-2">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="col section-seven__div">
-                    <p class="section-seven__div--p">
-                        "The support and responsiveness of
-                        Tomorro's teams made all the
-                        difference.”
-                    </p>
-                    <div class="d-flex justify-content-between align-items-center section-seven__div-div-3">
-                        <img src="./assets/images/div.picture-large (2).svg" alt="">
-                        <div class="d-flex flex-column ms-4">
-                            <p class="mb-0 text-start"><span class="text-dark-green fw-bold">Valentine
-                                    Alagnat</span><span class="text-light-grey"> • IT Purshasing
-                                    Manager, Vinci</span></p>
-                            <div class="d-flex mt-2 gap-2">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
-                                <img src="./assets/images/div.dot.svg" alt="">
+                    <div class="carousel-slide section-seven__div">
+                        <p class="section-seven__div--p">
+                            "The support and responsiveness of
+                            Tomorro's teams made all the
+                            difference.”
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center section-seven__div-div-3">
+                            <img src="./assets/images/div.picture-large (2).svg" alt="">
+                            <div class="d-flex flex-column ms-4">
+                                <p class="mb-0 text-start"><span class="text-dark-green fw-bold">Valentine
+                                        Alagnat</span><span class="text-light-grey"> • IT Purshasing
+                                        Manager, Vinci</span></p>
+                                <div class="d-flex mt-2 gap-2">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide section-seven__div">
+                        <p class="section-seven__div--p">
+                            "Tomorro has become an
+                            indispensable tool in the day-to-day
+                            work of our team, guaranteeing
+                            speed in the contractualization
+                            process and making it easier to
+                            follow negotiations through to
+                            signature.”
+                        </p>
+                        <div class="d-flex align-items-center section-seven__div-div-4">
+                            <img src="./assets/images/div.picture-large (3).svg" alt="">
+                            <div class="d-flex flex-column ms-4">
+                                <p class="mb-0 text-start"><span class="text-dark-green fw-bold">Nassim Ameli</span></p>
+                                <div class="d-flex mt-2 gap-2">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide section-seven__div">
+                        <p class="section-seven__div--p">
+                            "We opted for Tomorro for its easy-to-implement tool, which we deployed across the legal and
+                            sales teams to streamline our contract drafting and negotiation
+                            processes.”
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center section-seven__div-div-5">
+                            <img src="./assets/images/div.picture-medium.svg" alt="" width="64px">
+                            <div class="d-flex flex-column ms-4">
+                                <p class="mb-0 text-start"><span class="text-dark-green fw-bold">Florence
+                                        Rivat </span><span class="text-light-grey"> • General Counsel,
+                                        Evaneos</span></p>
+                                <div class="d-flex mt-2 gap-2">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-slide section-seven__div">
+                        <p class="section-seven__div--p">
+                            "The support and responsiveness of
+                            Tomorro's teams made all the
+                            difference.”
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center section-seven__div-div-3">
+                            <img src="./assets/images/image 1.svg" alt="">
+                            <div class="d-flex flex-column ms-4">
+                                <p class="mb-0 text-start"><span class="text-dark-green fw-bold">Bhagyashree
+                                        Pancholy </span><span class="text-light-grey"> • General
+                                        Counsel, Lano</span></p>
+                                <div class="d-flex mt-2 gap-2">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                    <img src="./assets/images/div.dot.svg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="mt-5">
-                <img class="me-5" src="./assets/images/Region - carousel → Button - previous slide.svg" alt="">
-                <img src="./assets/images/Region - carousel → Button - next slide.svg" alt="">
+                <button class="prev me-5" aria-label="Previous Testimonial">
+                    <img class="" src="./assets/images/Region - carousel → Button - previous slide.svg" alt="">
+                </button>
+                <button class="next" aria-label="Next Testimonial">
+                    <img class="" src="./assets/images/Region - carousel → Button - next slide.svg" alt="">
+                </button>
             </div>
         </section>
         <section class="section-eight px-4 py-5 d-flex flex-column align-items-center">
@@ -419,7 +550,7 @@
                 </div>
             </div>
         </section>
-        <section class="section-nine cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <section class="section-nine d-flex w-100 p-3 mx-auto flex-column">
             <div class="px-3 d-flex flex-column align-items-center">
                 <h2 class="section-nine__div--h2">Ready to take control of your contract management?</h2>
 
@@ -530,17 +661,18 @@
             <div class="footer-section__div-3 d-flex flex-column flex-sm-row py-4 my-4">
                 <p class="footer-section__div-3--color">© 2024 Company, Inc. All rights reserved.</p>
                 <ul class="list-unstyled d-flex">
-                    <li class="ms-3"><a class="link-body-emphasis footer-section__div-3--color" href="#">Terms &
+                    <li class="ms-3"><a class="footer-section__div-3--color" href="#">Terms &
                             conditions</a></li>
-                    <li class="ms-3"><a class="link-body-emphasis footer-section__div-3--color" href="#">Privacy</a>
+                    <li class="ms-3"><a class="footer-section__div-3--color" href="#">Privacy</a>
                     </li>
-                    <li class="ms-3"><a class="link-body-emphasis footer-section__div-3--color" href="#">🍪 Cookies</a>
+                    <li class="ms-3"><a class="footer-section__div-3--color" href="#">🍪 Cookies</a>
                     </li>
                 </ul>
             </div>
         </section>
     </footer>
     <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
