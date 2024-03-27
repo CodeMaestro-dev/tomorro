@@ -970,6 +970,7 @@ footer li {
 
   .footer-section {
     border-radius: 0px;
+    margin-block-end: 0px !important;
   }
 }
 
