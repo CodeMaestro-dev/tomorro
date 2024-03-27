@@ -959,7 +959,15 @@ footer li {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
+  .section-six {
+    padding-inline: 0px !important;
+  }
+
+  .section-six div {
+    border-radius: 0px !important;
+  }
+
   .section-eight {
     padding-inline: 0px !important;
   }
