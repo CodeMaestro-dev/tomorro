@@ -1013,6 +1013,18 @@ footer li {
   }
 }
 
+@media screen and (max-width: 390px) {
+  .testimonial-writer-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial-writer-div > p {
+    text-align: center !important;
+    margin: 0 !important;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .fs-p {
     font-size: 13px;
