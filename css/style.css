@@ -306,9 +306,8 @@ header > div {
 
 .section-four {
   margin-block-start: 220px;
-  margin-block-end: 328.7px;
+  margin-block-end: 128.7px;
   position: relative;
-  height: 100%;
 }
 
 .section-four img {
@@ -341,7 +340,7 @@ header > div {
 }
 
 .section-five__div:hover {
-  transform: scale(110%);
+  transform: scale(105%);
 }
 
 .section-five__h2 {
@@ -816,6 +815,10 @@ footer li {
 }
 
 @media screen and (max-width: 800px) {
+  img[src="./assets/images/Nav → Link → 6569a404c092bd33d2786511_logo-ex-light.svg.svg"] {
+    width: 100px !important;
+  }
+
   .section-five__h2 {
     width: 100%;
   }
@@ -1100,5 +1103,9 @@ footer li {
 
   .list-unstyled > li {
     margin: 0 !important;
+  }
+
+  .section-eight__h6 {
+    font-size: 16px;
   }
 }
