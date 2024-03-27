@@ -374,6 +374,14 @@ header > div {
   overflow: hidden;
 }
 
+.section-six__div-2 {
+  display: flex;
+}
+
+.section-six__div-2 > div {
+  width: 50%;
+}
+
 .section-six__div > img {
   height: 102%;
   position: absolute;
@@ -539,7 +547,8 @@ footer {
 }
 
 .footer-section {
-  border-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
   background-color: var(--dark-green);
   padding: 84px 64px;
 }
@@ -871,8 +880,7 @@ footer li {
 
 @media screen and (max-width: 600px) {
   .header-div {
-    width: 100% !important;
-    margin-inline: 20px;
+    width: 90% !important;
   }
 }
 
@@ -966,6 +974,17 @@ footer li {
 
   .section-six div {
     border-radius: 0px !important;
+    width: 100%;
+  }
+
+  .second-six__div-2 > div > {
+    padding: 0 !important;
+  }
+
+  .section-six__div--height {
+    padding: 0 !important;
+    border: 1px solid blue;
+    width: 100%;
   }
 
   .section-eight {
