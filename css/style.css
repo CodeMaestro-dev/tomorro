@@ -616,10 +616,10 @@ footer li {
   color: #939f95;
 }
 
-@media screen and (max-width: 1515px) {
-  .section-five__div-1 {
-    display: flex;
-    flex-direction: column !important;
+@media screen and (max-width: 1455px) {
+  .section-five__div {
+    width: 449px;
+    height: 456px;
   }
 }
 
@@ -658,6 +658,22 @@ footer li {
     position: absolute;
     top: 605.81px;
     right: 108.8px;
+  }
+}
+
+@media screen and (max-width: 1410px) {
+  .section-five__div {
+    width: 349px;
+    height: 356px;
+  }
+
+  .section-five__div > div > h3 {
+    font-size: 30px;
+  }
+
+  .section-five__p {
+    margin-block-start: 125px;
+    font-size: 14px;
   }
 }
 
@@ -770,6 +786,26 @@ footer li {
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .section-five__div-1 {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .section-five__div {
+    border-radius: 5px;
+    width: 469px;
+    height: 456px;
+    cursor: pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-five__p {
+    margin-block-start: 230px;
+  }
+}
+
 @media screen and (max-width: 1020px) {
   .section-eight__div {
     padding-inline: 20px;
@@ -778,16 +814,6 @@ footer li {
   .footer-section {
     padding-inline: 10px;
   }
-}
-
-@media screen and (max-width: 940px) {
-  /* .footer-section__div-2 {
-    border: none !important;
-    width: 100%;
-    flex-direction: column;
-    gap: 20px;
-    background-color: transparent;
-  } */
 }
 
 @media screen and (max-width: 905px) {
@@ -975,8 +1001,13 @@ footer li {
   }
 
   .section-five__div {
-    width: 269px;
-    height: 256px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .section-five__div > div {
+    width: 100%;
+    height: 90% !important;
   }
 
   .section-five__div > div {
@@ -987,15 +1018,18 @@ footer li {
     font-size: 15px;
   }
 
-  .section-five__div > div > p {
+  .section-five__p {
     margin: 0px !important;
-    margin-block-start: 90px !important;
+    margin-block-start: 80px !important;
     font-size: 12px;
   }
 
   .section-five__div > div > ul {
+    display: flex;
+    align-items: flex-start;
     margin: 0px !important;
     margin-block-start: 30px !important;
+    margin-block-end: 40px !important;
   }
 
   .section-five__div > div > ul > li > a {
